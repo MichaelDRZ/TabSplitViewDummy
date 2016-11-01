@@ -693,7 +693,7 @@
                         <tabViewItems/>
                     </tabView>
                     <connections>
-                        <outlet property="view" destination="fhk-UC-956" id="S8M-NN-rHL"/>
+                        <outlet property="view" destination="fhk-UC-956" id="brS-CW-hGj"/>
                         <segue destination="8PD-05-mu5" kind="relationship" relationship="tabItems" id="fcl-1z-lhs"/>
                         <segue destination="shs-3J-ot5" kind="relationship" relationship="tabItems" id="1G8-1Z-N1m"/>
                     </connections>
