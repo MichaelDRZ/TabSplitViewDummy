@@ -1,6 +1,10 @@
 # TabSplitViewDummy
 Simple NSSplitViewController inside an NSTabViewController
 
+Update: I found the solution and added it. You have to go to the storyboard and connect the "view" outlet of the    NSTabViewController to the "No Shadow Tab View". That's it. You d'expect Xcode to do that when you set up a new NSTabViewController but it doesn't. I'don't fully understand why, but somehow this messes with the Autolayout of the NSSplitView.
+
+---------------------------------------------------------------------------------------------------------------------------
+
 I made this very simple dummy project to illustrate my problem (using Xcode 8.1 on 10.12.1).
 It has a storyboard with an NSTabViewController with 2 tabs, one of which is an NSSplitViewController.
 Although everything seems to work perfectly, I see the following warning at runtime:
