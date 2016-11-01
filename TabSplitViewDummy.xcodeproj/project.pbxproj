@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		016ABF071DC89CED0051EF63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016ABF061DC89CED0051EF63 /* AppDelegate.swift */; };
-		016ABF091DC89CED0051EF63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016ABF081DC89CED0051EF63 /* ViewController.swift */; };
 		016ABF0B1DC89CED0051EF63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016ABF0A1DC89CED0051EF63 /* Assets.xcassets */; };
 		016ABF0E1DC89CED0051EF63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016ABF0C1DC89CED0051EF63 /* Main.storyboard */; };
 		016ABF191DC89CEE0051EF63 /* TabSplitViewDummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016ABF181DC89CEE0051EF63 /* TabSplitViewDummyTests.swift */; };
@@ -35,7 +34,6 @@
 /* Begin PBXFileReference section */
 		016ABF031DC89CED0051EF63 /* TabSplitViewDummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabSplitViewDummy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		016ABF061DC89CED0051EF63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		016ABF081DC89CED0051EF63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		016ABF0A1DC89CED0051EF63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		016ABF0D1DC89CED0051EF63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		016ABF0F1DC89CED0051EF63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,10 +93,9 @@
 		016ABF051DC89CED0051EF63 /* TabSplitViewDummy */ = {
 			isa = PBXGroup;
 			children = (
-				016ABF061DC89CED0051EF63 /* AppDelegate.swift */,
-				016ABF081DC89CED0051EF63 /* ViewController.swift */,
-				016ABF0A1DC89CED0051EF63 /* Assets.xcassets */,
 				016ABF0C1DC89CED0051EF63 /* Main.storyboard */,
+				016ABF061DC89CED0051EF63 /* AppDelegate.swift */,
+				016ABF0A1DC89CED0051EF63 /* Assets.xcassets */,
 				016ABF0F1DC89CED0051EF63 /* Info.plist */,
 			);
 			path = TabSplitViewDummy;
@@ -255,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				016ABF091DC89CED0051EF63 /* ViewController.swift in Sources */,
 				016ABF071DC89CED0051EF63 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
